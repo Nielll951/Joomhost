@@ -1,0 +1,52 @@
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+a {
+   color: #000;
+   text-decoration: none;
+}
+
+body {}
+
+.container {
+   max-width: 1170px;
+   margin: 0 auto;
+   padding: 0px 15px;
+}
+
+.header {
+   border-top: 1px solid #3782e5;
+}
+
+.header__inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 87px;
+}
+
+.logo {}
+
+.menu {}
+
+.menu__list {
+   display: flex;
+}
+
+.menu__list li {
+   margin-left: 38px;
+}
+
+.menu__list a {
+   font-size: 14px;
+   color: #2f3f54;
+   font-weight: 700;
+   font-family: 'Open Sans', sans-serif;
+}
