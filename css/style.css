@@ -11,6 +11,7 @@ html {
 a {
    color: #000;
    text-decoration: none;
+   display: inline-block;
 }
 
 body {
@@ -118,18 +119,51 @@ body {
    transform: translateY(-50%);
 }
 
-.top-info__btn {}
-
-.top-info__btn-descr {}
+.top-info__btn {
+   color: #fff;
+   text-transform: uppercase;
+   border: 3px solid #fff;
+   padding: 13px 44px;
+   border-radius: 30px;
+   margin-bottom: 15px;
+}
 
 .top-images {}
 
-.top-images__box {}
+.top-images__box {
+   position: relative;
+}
 
-.top-images__circle {}
+.top-images__circle {
+   width: 230px;
+   height: 230px;
+   background-color: #fff;
+   border-radius: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
+   color: #212121;
+   position: absolute;
+   top: -65px;
+   right: -60px;
+}
 
-.top-images__title {}
+.top-images__title {
+   margin-bottom: 10px;
+   text-align: left;
+   width: 140px;
+}
 
-.top-images__price {}
+.top-images__price {
+   font-size: 54px;
+   font-weight: 700;
+   margin-bottom: 5px;
 
-.top-images__date {}
+}
+
+.top-images__date {
+   text-align: right;
+   width: 140px;
+}
