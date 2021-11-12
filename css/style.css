@@ -39,9 +39,16 @@ body {
    height: 87px;
 }
 
-.logo {}
+.btn__menu {
+   width: 40px;
+   display: none;
+}
 
-.menu {}
+.btn__menu div {
+   height: 3px;
+   background-color: #000;
+   margin-bottom: 5px;
+}
 
 .menu__list {
    display: flex;
