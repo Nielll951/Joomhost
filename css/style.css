@@ -396,14 +396,14 @@ body {
    margin: 0 -50px;
 }
 
-.reviews-slider .slick-track {
+.reviews-slider .slick-slide {
    margin: 0 50px;
+   padding-bottom: 70px;
 }
 
 .reviews-slider .slick-dots {
    display: flex;
    justify-content: center;
-   margin-top: 50px;
 }
 
 .reviews-slider .slick-dots li {
@@ -464,3 +464,13 @@ body {
    font-weight: 700;
    font-family: 'Roboto', sans-serif;
 }
+
+.partners {}
+
+.partners__inner {
+   padding: 110px 0 70px;
+   display: flex;
+   justify-content: center;
+}
+
+.partners__image {}
