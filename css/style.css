@@ -63,6 +63,11 @@ body {
    color: #2f3f54;
    font-weight: 700;
    font-family: 'Open Sans', sans-serif;
+   transition: 0.3s all;
+}
+
+.menu__list a:hover {
+   color: #3883e5;
 }
 
 .top {
@@ -135,6 +140,11 @@ body {
    padding: 13px 44px;
    border-radius: 30px;
    margin-bottom: 15px;
+   transition: .3s;
+}
+
+.top-info__btn:hover {
+   box-shadow: inset 0px 0px 0px 3px #f7f7f7;
 }
 
 .top-images {}
@@ -292,6 +302,12 @@ body {
    right: 0;
    text-align: center;
    padding: 20px 10px;
+   transition: .3s;
+}
+
+.price-item__btn:hover {
+   color: #fff;
+   background-color: rgb(41, 125, 236, 0.9);
 }
 
 .footer {
@@ -335,6 +351,11 @@ body {
    font-size: 13px;
    margin-bottom: 8px;
    color: #718db2;
+   transition: .3s;
+}
+
+.footer__list a:hover {
+   color: #fff;
 }
 
 .footer-menu {
@@ -384,6 +405,11 @@ body {
    background-color: #2575e7;
    padding: 10px;
    cursor: pointer;
+   transition: .3s all;
+}
+
+.footer-form button:hover {
+   background-color: #718db2;
 }
 
 .reviews {
